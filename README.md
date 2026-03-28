@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
@@ -436,7 +436,7 @@
 <script>
 const CATS_KEY  = 'nolangcat_v3';
 const DIARY_KEY = 'nolangcat_diary_v1';
-const ADMIN_PWD = 'nolang2024'; // ← 可修改密碼
+const ADMIN_PWD = 'chch715715'; // ← 可修改密碼
 
 function loadCats()  { try{return JSON.parse(localStorage.getItem(CATS_KEY)) ||[];}catch{return[];} }
 function loadDiary() { try{return JSON.parse(localStorage.getItem(DIARY_KEY))||[];}catch{return[];} }
